@@ -9,9 +9,11 @@
 }
 
 .header-section {
-  padding: 1.5rem;
-  text-align: center;
+  padding: 2rem;
+  text-align: left;
   display: block;
+  font-family: Montserrat;
+  font-style: normal;
 }
 
 .header-section a {
@@ -19,13 +21,17 @@
   border-radius: 31.5px;
   text-decoration: none;
   color: #fef3d4;
-  padding: 0.8rem 1.2rem;
+  padding: 0.9rem 2.3rem;
   font-weight: 600;
 }
 
 .header-section h2 {
-  font-family: Montserrat;
-  font-style: normal;
   font-weight: 600;
   font-size: 50px;
+  margin-bottom: 2rem;
+}
+
+.header-section p {
+  font-size: 20px;
+  margin-bottom: 2rem;
 }

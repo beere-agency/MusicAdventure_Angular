@@ -2,5 +2,7 @@ mat-toolbar {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 100000;
+  background-color: #fb564c;
+  color: #fff;
 }
