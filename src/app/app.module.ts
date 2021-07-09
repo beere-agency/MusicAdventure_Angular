@@ -11,7 +11,8 @@ import { SidebarComponent } from './template/sidebar/sidebar.component';
 import { SliderComponent } from './template/slider/slider.component';
 import "../assets/image/music-art-2.png";
 import { HomeComponent } from './home/home.component';
-import { MidSectionComponent } from './template/mid-section/mid-section.component'
+import { MidSectionComponent } from './template/mid-section/mid-section.component';
+import { FooterComponent } from './template/footer/footer.component'
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MidSectionComponent } from './template/mid-section/mid-section.componen
     SidebarComponent,
     SliderComponent,
     HomeComponent,
-    MidSectionComponent
+    MidSectionComponent,
+    FooterComponent
   ],
   imports: [
     MaterialModule,

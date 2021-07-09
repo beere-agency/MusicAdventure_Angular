@@ -1,0 +1,30 @@
+.footer {
+  background-color: #1c2628;
+  border-radius: 40px;
+  text-align: center;
+  display: block;
+  font-family: Montserrat;
+  font-style: normal;
+  padding: 10rem 5rem;
+  color: #fef3d4;
+}
+
+.footer a {
+  background: #fb564c;
+  border-radius: 31.5px;
+  text-decoration: none;
+  color: #fef3d4;
+  padding: 0.9rem 2.3rem;
+  font-weight: 600;
+}
+
+.footer h2 {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+
+.footer p {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
