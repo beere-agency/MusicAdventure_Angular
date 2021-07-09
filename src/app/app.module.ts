@@ -8,6 +8,8 @@ import { MaterialModule } from "./material/material.module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './template/menu/menu.component';
 import { SidebarComponent } from './template/sidebar/sidebar.component';
+import { SliderComponent } from './template/slider/slider.component';
+import "../assets/image/music-art-2.png"
 
 
 @NgModule({
@@ -15,7 +17,8 @@ import { SidebarComponent } from './template/sidebar/sidebar.component';
     AppComponent,
     ProductComponent,
     MenuComponent,
-    SidebarComponent
+    SidebarComponent,
+    SliderComponent
   ],
   imports: [
     MaterialModule,

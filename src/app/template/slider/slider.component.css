@@ -1,0 +1,31 @@
+.slider {
+  background: #fef3d4;
+  border-radius: 40px;
+  margin: 2rem;
+}
+
+.image {
+  height: 25rem;
+}
+
+.header-section {
+  padding: 1.5rem;
+  text-align: center;
+  display: block;
+}
+
+.header-section a {
+  background: #fb564c;
+  border-radius: 31.5px;
+  text-decoration: none;
+  color: #fef3d4;
+  padding: 0.8rem 1.2rem;
+  font-weight: 600;
+}
+
+.header-section h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+}

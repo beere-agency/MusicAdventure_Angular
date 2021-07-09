@@ -1,3 +1,42 @@
-mat-card {
-  width: 20rem;
+.product {
+  width: 17.688rem;
+  height: 20.938rem;
+  border-radius: 40px;
+  background: #fef3d4;
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 40px 40px 0px 0px;
+  height: 10.188rem;
+}
+
+.detail-section {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.detail-section h3 {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  align-items: center;
+}
+
+.detail-section p {
+  font-weight: 600;
+  font-size: 17px;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.detail-section a {
+  background: #fb564c;
+  border-radius: 31.5px;
+  text-decoration: none;
+  color: #fef3d4;
+  padding: 0.8rem 1.2rem;
+  font-weight: 600;
 }
