@@ -1,8 +1,13 @@
 <app-slider></app-slider>
-<h1 class="top-text">Top Picks</h1>
+<div class="container">
+    <h1 class="top-text">Top Picks</h1>
+</div>
 <div class="product-container" id="product-section">
     <app-product *ngFor="let product of products let index = index" class="product"></app-product>
 </div>
-<div class="container">
+<div class="container" style="text-align: center;">
     <a href="#" class="btn">View More</a>
+</div>
+<div class="container">
+    <app-mid-section></app-mid-section>
 </div>

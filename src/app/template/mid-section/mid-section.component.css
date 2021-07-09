@@ -1,0 +1,38 @@
+.mid-grid {
+  display: grid;
+  grid-template-areas:
+    "main main main up up "
+    "main main main up up "
+    "main main main down down "
+    "main main main down down ";
+  /* grid-gap: 10px; */
+  padding: 10px;
+}
+
+.main {
+  grid-area: main;
+  padding: 1rem;
+}
+
+.up {
+  grid-area: up;
+  padding: 1rem;
+}
+
+.down {
+  grid-area: down;
+  padding: 1rem;
+}
+
+.main-img {
+  height: 32rem;
+  width: 100%;
+}
+
+.sub-img {
+  height: 15rem;
+}
+
+img {
+  border-radius: 40px;
+}

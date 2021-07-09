@@ -10,7 +10,8 @@ import { MenuComponent } from './template/menu/menu.component';
 import { SidebarComponent } from './template/sidebar/sidebar.component';
 import { SliderComponent } from './template/slider/slider.component';
 import "../assets/image/music-art-2.png";
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { MidSectionComponent } from './template/mid-section/mid-section.component'
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HomeComponent } from './home/home.component'
     MenuComponent,
     SidebarComponent,
     SliderComponent,
-    HomeComponent
+    HomeComponent,
+    MidSectionComponent
   ],
   imports: [
     MaterialModule,
