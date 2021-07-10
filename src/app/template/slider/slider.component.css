@@ -1,7 +1,10 @@
-.slider {
+.slider-grid {
   background: #fef3d4;
   border-radius: 40px;
   margin: 2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 3rem 0;
 }
 
 .image {
@@ -9,7 +12,7 @@
 }
 
 .header-section {
-  padding: 2rem;
+  padding: 8rem 2rem;
   text-align: left;
   display: block;
   font-family: Montserrat;
@@ -28,10 +31,25 @@
 .header-section h2 {
   font-weight: 600;
   font-size: 50px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1;
 }
 
 .header-section p {
   font-size: 20px;
   margin-bottom: 2rem;
+}
+
+.left {
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .slider-grid {
+    grid-template-columns: auto;
+    margin: 1rem;
+  }
+  .image {
+    height: 15rem;
+  }
 }

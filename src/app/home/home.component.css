@@ -24,6 +24,7 @@
   font-weight: 600;
   font-size: 64px;
   text-align: center;
+  line-height: 1;
 }
 .btn {
   background: #fb564c;
@@ -40,5 +41,8 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
+  }
+  .top-text {
+    font-size: 45px;
   }
 }
