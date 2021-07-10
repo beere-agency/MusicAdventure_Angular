@@ -33,3 +33,12 @@
   padding: 0.9rem 2.3rem;
   font-weight: 600;
 }
+
+@media screen and (max-width: 480px) {
+  .product-container {
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+}

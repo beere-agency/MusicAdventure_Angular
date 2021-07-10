@@ -7,6 +7,13 @@
   font-style: normal;
 }
 
+@media screen and (max-width: 480px) {
+  .product {
+    width: 20rem;
+    height: 22rem;
+  }
+}
+
 .product img {
   width: 100%;
   border-radius: 40px 40px 0px 0px;
