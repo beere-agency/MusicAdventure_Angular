@@ -36,3 +36,15 @@
 img {
   border-radius: 40px;
 }
+@media screen and (max-width: 480px) {
+  .mid-grid {
+    grid-template-areas:
+      "main"
+      "up"
+      "down";
+  }
+
+  .main-img {
+    height: 20rem;
+  }
+}

@@ -21,10 +21,17 @@
 .footer h2 {
   font-weight: 600;
   font-size: 50px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1;
 }
 
 .footer p {
   font-size: 20px;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 9rem 1rem;
+  }
 }
