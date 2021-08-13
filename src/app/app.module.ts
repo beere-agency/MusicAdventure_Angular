@@ -12,7 +12,8 @@ import { SliderComponent } from './template/slider/slider.component';
 import "../assets/image/music-art-2.png";
 import { HomeComponent } from './home/home.component';
 import { MidSectionComponent } from './template/mid-section/mid-section.component';
-import { FooterComponent } from './template/footer/footer.component'
+import { FooterComponent } from './template/footer/footer.component';
+import { GenericListComponent } from './utilities/generic-list/generic-list.component'
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { FooterComponent } from './template/footer/footer.component'
     SliderComponent,
     HomeComponent,
     MidSectionComponent,
-    FooterComponent
+    FooterComponent,
+    GenericListComponent
   ],
   imports: [
     MaterialModule,

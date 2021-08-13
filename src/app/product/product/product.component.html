@@ -1,21 +1,14 @@
-<!-- <mat-card>
-    <mat-card-title>Simple card</mat-card-title>
-    <img src="https://source.unsplash.com/random/200x200/?music" alt="Product Image" mat-card-image>
-    <mat-card-content> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate odio, obcaecati
-        recusandae, repudiandae, sunt ratione distinctio neque culpa magnam laborum sed iste officiis eveniet?
-    </mat-card-content>
-    <mat-card-actions>
-        <a mat-button>
-            <mat-icon>plus</mat-icon> Add To Cart
-        </a>
-    </mat-card-actions>
-</mat-card> -->
-
-<div class="product">
-    <img src="https://source.unsplash.com/random/?art" alt="Product Image">
-    <div class="detail-section">
-        <h3>FREE Afrobeats MIDI Pack</h3>
-        <p>₦12,000</p>
-        <a href="#">Buy Now</a>
-    </div>
-</div>
+<app-generic-list [list]="products">
+    <ng-container content>
+        <div *ngFor="let product of products let index = index">
+            <div class="product">
+                <img src="https://source.unsplash.com/random/?art" alt="Product Image">
+                <div class="detail-section">
+                    <h3>{{product.name}}</h3>
+                    <p>₦{{product.price}}</p>
+                    <a href="#">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</app-generic-list>
